@@ -449,17 +449,18 @@
              markers: 
 			 	[
 			 		{
-                 		latitude: -33.898361, 
-                 		longitude: 151.175290, 
-                 		html: "<strong>Manalia Tower</strong>", 
+                 		latitude: 42.214704,
+                 		longitude: -4.4411147,
+                 		html: "<strong>Hosteria San Miguel</strong>",
                 		popup: true,               
-					},
-					{
-                		latitude: -33.905485, 
-                 		longitude: 151.169131, 
-                 		html: "<strong>Comfort Inn</strong>", 
-                 		popup: true,               
-                    } 
+					}
+					//,
+					//{
+//                		latitude: -33.905485,
+//                 		longitude: 151.169131,
+//                 		html: "<strong>Comfort Inn</strong>",
+//                 		popup: true,
+                    //}
                 ], 
              panControl: true, 
              zoomControl: true, 
