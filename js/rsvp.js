@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	
 	'use strict';
@@ -186,22 +187,21 @@ $(document).ready(function(){
 			inputmessage= $('#inputmessage').val();
 			
 		if (inputname == "") {
+
             $("#fullname").addClass("has-error");
         }
-		else
-		{
-			$("#fullname").removeClass("has-error");
-		}
-		
-		if (inputemail == "") {
+        else {
+            $("#fullname").removeClass("has-error");
+        }
+
+        if (inputemail == "") {
             $("#email").addClass("has-error");
         }
-		else
-		{ 	
-			$("#email").removeClass("has-error");
+        else {
+            $("#email").removeClass("has-error");
         }
-		
-		if (inputevents == null) {
+
+        if (inputevents == null) {
             $("#events").addClass("has-error");
         }
 		else
@@ -216,6 +216,5 @@ $(document).ready(function(){
 
     });
 
- 
-    
+
 });
