@@ -95,9 +95,13 @@
 	jQuery(function($){
 		$.supersized({
 			slides  :  	
-			[ 
-				{	image : 'images/slider1.jpg' } ,
-				{	image : 'images/slider2.jpg' }
+			[
+				// {	image : 'images/slider-ny-bw.jpg' } ,
+				// {	image : 'images/slider-ny-bw2.jpg' } ,
+				{	image : 'images/slider_new_2_1.jpg' },
+				{	image : 'images/slider-ny-bw3.jpg' },
+				// {	image : 'images/slider-amsterdam-bk.jpg' },
+				{	image : 'images/slider_new_1_3.jpg' }
 			]
 		});
 	});
@@ -449,9 +453,9 @@
              markers: 
 			 	[
 			 		{
-                 		latitude: 42.214704,
-                 		longitude: -4.4411147,
-                 		html: "<strong>Hosteria San Miguel</strong>",
+                 		latitude: 42.3402183,
+                 		longitude: -4.6131714,
+                 		// html: "<strong>Monasterio de San Zoilo</strong>",
                 		popup: true,               
 					}
 					//,
